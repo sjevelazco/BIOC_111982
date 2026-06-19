@@ -4,12 +4,11 @@
 
 This repository contains R scripts for constructing species distribution models (SDMs) and performing data analysis related to the scientific article:
 
-> **"Beyond protected areas: The synergistic role of forest territorial planning in safeguarding tree diversity"**  
-> *Biological Conservation* (in press)
+> Bedrij, N.A.; Montti, L.; Keller, H.A.; Lopez. L.N.; Velazco, S.J.E. (2026) **"Beyond protected areas: The synergistic role of forest territorial planning in safeguarding tree diversity"**, *Biological Conservation* (in press). https://doi.org/10.1016/j.biocon.2026.111982
 
 ## Project Description
 
-This study investigates the effectiveness of forest territorial planning in combination with protected areas for safeguarding tree diversity. Using species distribution modeling techniques, we analyze how different conservation strategies contribute to protecting forest biodiversity.
+This study investigates the effectiveness of forest territorial planning in combination with protected areas for safeguarding tree diversity in Argentina. Using species distribution modeling techniques, we analyze how different conservation strategies contribute to protecting forest biodiversity.
 
 ## Contents
 
@@ -21,9 +20,8 @@ This study investigates the effectiveness of forest territorial planning in comb
 ## Requirements
 
 ### R Packages
-- `raster` - Raster data handling
-- `sp` / `sf` - Spatial data manipulation
-- `dismo` - Species distribution modeling
+- `terra` / `sf` - Spatial data manipulation
+- `flexsdm` - Species distribution modeling
 - `biomod2` - Biomod2 ensemble modeling (optional)
 - `ggplot2` - Data visualization
 - Additional packages as needed (specified in individual scripts)
